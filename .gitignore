@@ -1,5 +1,4 @@
 .gradle
-/build/
 
 # Ignore Gradle GUI config
 gradle-app.setting
@@ -12,3 +11,46 @@ gradle-app.setting
 
 # # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
 # gradle/wrapper/gradle-wrapper.properties
+
+# Directories #
+/build/
+bin/
+repos/
+/repos/
+doc/
+/doc/
+.gradle/
+/bin/
+target/
+
+# OS Files #
+.DS_Store
+
+# JetBrain's Idea specific stuff #
+
+.idea*
+*.iml
+
+# User-specific stuff:
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+# Gradle:
+.idea/gradle.xml
+.idea/libraries
+
+# IntelliJ
+/out/
+
+*.class
+gradle/wrapper
+gradlew.bat
+gradlew
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.db
