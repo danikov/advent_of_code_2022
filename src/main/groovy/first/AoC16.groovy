@@ -1,8 +1,6 @@
 package first
 
 class AoC16 implements Runnable {
-    Map<String, Integer> directories = ['/': 0]
-
     void run() {
         def input = getClass().getResource("/day8_input.txt").readLines()
         def trees = input*.chars*.toList()*.collect{Character.getNumericValue(it)}

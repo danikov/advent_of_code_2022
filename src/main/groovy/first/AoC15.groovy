@@ -1,12 +1,6 @@
 package first
 
-
-import com.google.common.collect.ImmutableList
-import com.google.common.collect.Lists
-
 class AoC15 implements Runnable {
-    Map<String, Integer> directories = ['/': 0]
-
     void run() {
         def input = getClass().getResource("/day8_input.txt").readLines()
         def trees = input*.chars*.toList()*.collect{Character.getNumericValue(it)}

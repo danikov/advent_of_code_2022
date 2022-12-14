@@ -1,8 +1,6 @@
 package first
 
 class AoC18 implements Runnable {
-    Map<String, Integer> directories = ['/': 0]
-
     void run() {
         def input = getClass().getResource("/day9_input.txt").readLines()
 
