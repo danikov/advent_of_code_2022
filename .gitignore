@@ -54,3 +54,5 @@ gradlew
 *.war
 *.ear
 *.db
+
+/src/main/resources/day*_input.txt
